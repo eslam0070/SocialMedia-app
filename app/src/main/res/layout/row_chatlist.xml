@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:contentPadding="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profileiIWIv"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/profile"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/onlineStatusIv"
+            android:layout_width="15dp"
+            android:layout_marginStart="55dp"
+            app:civ_border="true"
+            app:civ_border_width="1dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="0"
+            android:layout_marginTop="45dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:id="@+id/nametvc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/profileiIWIv" />
+
+        <TextView
+            android:id="@+id/lastMessageTv"
+            android:layout_width="match_parent"
+            android:layout_marginStart="5dp"
+            android:maxLines="2"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/profileiIWIv"
+            android:layout_below="@id/nametvc" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Social Media</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="social_media">Social Media</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="i_have_already_account">I Have Already Account?</string>
+    <string name="login">Login</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="logout">Logout</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="home">Home</string>
+    <string name="users">Users</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="person_phone">Person Phone</string>
+    <string name="person_email">Person Email</string>
+    <string name="person_name">Person Name</string>
+    <string name="search">Search</string>
+    <string name="chats">Chats</string>
+    <string name="online">Online</string>
+    <string name="start_typing">Start Typing</string>
+    <string name="_02_30_am">02:30 AM</string>
+    <string name="message_content">Message content</string>
+    <string name="add_post">Add Post</string>
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+    <string name="post">Post</string>
+    <string name="homer_j_allen">Homer J. Allen</string>
+    <string name="_12h_ago">12h ago</string>
+    <string name="short_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="_45_likes">45 likes</string>
+    <string name="_12_comments">12 Comments</string>
+    <string name="write_a_comment">Write a comment…</string>
+    <string name="comments">Comments</string>
+    <string name="link">Link</string>
+    <string name="share">Share</string>
+    <string name="like">Like</string>
+    <string name="this_is_actual_comment">This is actual comment</string>
+    <string name="settings">Settings</string>
+    <string name="post_notification">Post Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="time">Time</string>
+
+</resources>

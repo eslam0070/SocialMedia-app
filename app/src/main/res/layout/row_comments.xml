@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/coavatarIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:id="@+id/conameTv"
+            android:text="@string/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/coavatarIv" />
+
+        <TextView
+            android:id="@+id/cocommentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/conameTv"
+            android:text="@string/this_is_actual_comment"
+            android:layout_toEndOf="@id/coavatarIv"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/cotimeTv"
+            android:text="@string/_12h_ago"
+            android:layout_below="@id/cocommentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/coavatarIv" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
